@@ -1,0 +1,5 @@
+a=int(input("\n\nEnter your 1st no="))
+b=int(input("\nEnter your 2nd no="))
+c=int(input("\nEnter your 3rd no="))
+d=int(input("\nEnter how much you take no"))
+print("average of nos=",(a+b+c)/d)
