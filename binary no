@@ -1,0 +1,9 @@
+n=input("enter your number")
+s=str(n)
+l=len(n)
+for i in range(0,l,1):
+  c=int(str(n))
+if c==0 or c==1 :
+    print("this is binary")
+else:
+    print("this is not binary")
