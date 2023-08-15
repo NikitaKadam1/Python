@@ -1,0 +1,13 @@
+str1=input("\nEnter your stinrg for kelvin word:")
+str2=input("\nEnter your string for staurt word:")
+s1=str(str1)
+s2=str(str2)
+vowel="aeiouAEIOU"
+if s1[0] in vowel and s2[0] in vowel:
+  print("\n\nTIE")
+elif s1[0] in vowel:
+  print("\n\n KELVIN WINS")
+elif s2[0] in vowel:
+  print ("\n\n STAURT WINS")
+else:
+  print("\n\n FAIL")
